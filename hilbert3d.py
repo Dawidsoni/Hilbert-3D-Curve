@@ -19,13 +19,13 @@ class Point3d:
 
 class ProgramArgs:
 	def __init__(self, argv):
-		self.curve_order = int(argv[2])
-		self.image_size = float(argv[3])
-		self.curve_scale = float(argv[4])
-		self.camera_dist = float(argv[5])
-		self.curve_pos = Point3d(float(argv[6]), float(argv[7]), float(argv[8]))
-		self.ox_angle = float(argv[9])
-		self.oy_angle = float(argv[10])	
+		self.curve_order = int(argv[1])
+		self.image_size = float(argv[2])
+		self.curve_scale = float(argv[3])
+		self.camera_dist = float(argv[4])
+		self.curve_pos = Point3d(float(argv[5]), float(argv[6]), float(argv[7]))
+		self.ox_angle = float(argv[8])
+		self.oy_angle = float(argv[9])	
 
 
 def generate_postscript(image_size, point_list):

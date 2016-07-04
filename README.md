@@ -8,4 +8,4 @@
 
 `python hilbert3d.py 4 500 20 600 400 400 400 10 40 > example1.ps`
 
-![Example1](/home/adminuser/Desktop/github/hilbert3D-curve/example1.png  "Example1")
+![Example1](https://github.com/Dawidsoni/hilbert3D-curve/blob/master/example1.png  "Example1")
